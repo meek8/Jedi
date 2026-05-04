@@ -33,7 +33,7 @@ function renderBooks(docs) {
         container.appendChild(card);
     });
 }
-
+function renderLoading() {
 function renderLoading() {
     const booksDiv = document.querySelector('#books_div');
     booksDiv.innerHTML = '<div class="loader"></div>'; 
