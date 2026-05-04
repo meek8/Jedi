@@ -3,7 +3,14 @@
 <html>
 <head>
     <title>Bookie</title>
-    <link rel="stylesheet" href="site.css" />
+<link rel="stylesheet" href="site.css" />
+
+    <!-- 1. Load data/logic tools first -->
+    <script defer src="api.js"></script>
+    <script defer src="state.js"></script>
+    <script defer src="ui.js"></script>
+
+    <!-- 2. Load the controller last -->
     <script defer src="main.js"></script>
 </head>
 <body>
